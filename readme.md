@@ -56,6 +56,8 @@ Default: `1000`
 
 The duration of the animation
 
+![Smooth move Ferguson](http://media.tumblr.com/tumblr_lkh26ovh9i1qfy7a6.jpg)
+
 ## License
 
 MIT © [Ben Drucker](http://bendrucker.me)
