@@ -1,0 +1,38 @@
+{
+  "name": "smooth-move",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Smoothly scroll a scrollable element",
+  "license": "MIT",
+  "repository": "bendrucker/smooth-move",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "smooth",
+    "scroll",
+    "move",
+    "element",
+    "scrollTop",
+    "smooth move ferguson"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "bezier-easing": "~1.1.1",
+    "number-is-integer": "~1.0.0",
+    "raf": "~3.1.0",
+    "scroll-xy": "~1.0.0",
+    "xtend": "~4.0.0"
+  }
+}
