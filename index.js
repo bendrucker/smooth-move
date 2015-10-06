@@ -1,7 +1,6 @@
 'use strict'
 
 var extend = require('xtend')
-var isInteger = require('number-is-integer')
 var Bezier = require('bezier-easing')
 var scrollPosition = require('scroll-xy')
 var raf = require('raf')
@@ -53,9 +52,13 @@ function assertElement (element) {
 }
 
 function assertCoordinates (options) {
-  if (!isInteger(options.x) || !isInteger(options.y)) {
+  if (!isNumber(options.x) || !isNumber(options.y)) {
     throw new TypeError('scroll coordinates {x, y} are required')
   }
+}
+
+function isNumber (value) {
+  return typeof value === 'number'
 }
 
 function noop () {}

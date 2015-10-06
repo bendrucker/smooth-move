@@ -30,7 +30,6 @@
   ],
   "dependencies": {
     "bezier-easing": "~1.1.1",
-    "number-is-integer": "~1.0.0",
     "raf": "~3.1.0",
     "scroll-xy": "~1.0.0",
     "xtend": "~4.0.0"
