@@ -1,7 +1,7 @@
 {
   "name": "smooth-move",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Smoothly scroll a scrollable element",
   "license": "MIT",
   "repository": "bendrucker/smooth-move",
