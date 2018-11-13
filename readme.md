@@ -1,4 +1,4 @@
-# smooth-move [![Build Status](https://travis-ci.org/bendrucker/smooth-move.svg?branch=master)](https://travis-ci.org/bendrucker/smooth-move)
+# smooth-move [![Build Status](https://travis-ci.org/bendrucker/smooth-move.svg?branch=master)](https://travis-ci.org/bendrucker/smooth-move) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/smooth-move.svg)](https://greenkeeper.io/)
 
 > Smoothly scroll a scrollable element
 
