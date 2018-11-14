@@ -1,4 +1,4 @@
-# smooth-move [![Build Status](https://travis-ci.org/bendrucker/smooth-move.svg?branch=master)](https://travis-ci.org/bendrucker/smooth-move)
+# smooth-move [![Build Status](https://travis-ci.org/bendrucker/smooth-move.svg?branch=master)](https://travis-ci.org/bendrucker/smooth-move) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/smooth-move.svg)](https://greenkeeper.io/)
 
 > Smoothly scroll a scrollable element
 
@@ -44,10 +44,10 @@ Distance to scroll along the x/y axes.
 
 ###### ease
 
-Type: `string` / `function`  
-Default: `'ease'`
+Type: `array[number]`
+Default: `[0.25, 0.1, 0.25, 1]'`
 
-An easing function (see [bezier-easing](https://github.com/gre/bezier-easing))
+[Cubic bezier points](http://cubic-bezier.com)
 
 ###### duration
 

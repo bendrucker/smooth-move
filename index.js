@@ -6,7 +6,7 @@ var scrollPosition = require('scroll-xy')
 var raf = require('raf')
 
 var defaults = {
-  ease: 'ease',
+  ease: [0.25, 0.1, 0.25, 1],
   duration: 1000
 }
 
@@ -35,7 +35,7 @@ module.exports = function smoothScroll (element, options, callback) {
   function scroll () {
     var now = +new Date()
     var time = Math.min(1, ((now - start.time) / options.duration))
-    var coefficient = ease.get(time)
+    var coefficient = ease(time)
 
     element.scrollLeft = coefficient * (options.x - start.x) + start.x
     element.scrollTop = coefficient * (options.y - start.y) + start.y
